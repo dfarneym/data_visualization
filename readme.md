@@ -23,29 +23,11 @@ DataVisualization/
 └── imigracao_america_sul.html      # Gráfico interativo da imigração da América do Sul (Plotly)
 └── readme.md                       # Este arquivo README
 ```
-```
-## 🚀 Como Executar o Projeto
-
-Para visualizar e replicar a análise e os gráficos gerados neste projeto, siga os passos abaixo:
-
-### Pré-requisitos
-
-Certifique-se de ter o Python instalado em sua máquina (versão 3.9 ou superior é recomendada).
-
-### Dependências
-
-As bibliotecas Python necessárias para este projeto podem ser instaladas via `pip`. Recomenda-se a criação de um ambiente virtual para isolar as dependências.
-
-```bash
-# Crie e ative um ambiente virtual (opcional, mas recomendado)
-python -m venv venv
-source venv/bin/activate  # No Linux/macOS
-venv\Scripts\activate     # No Windows
-
 # Instale as bibliotecas
 pip install pandas matplotlib seaborn plotly jupyter nbformat
-```
+
 ## Passos para Execução
+
 ### 1 Clone o Repositório:
 git clone [https://github.com/dfarneym/data_visualization](https://github.com/dfarneym/data_visualization)
 cd DataVisualization
@@ -93,4 +75,11 @@ O projeto explora e visualiza a imigração para o Canadá, focando em:
 - Plotly: Criação de gráficos interativos e dinâmicos.
 
 - Jupyter Notebook: Ambiente interativo para desenvolvimento e apresentação do código.
+
+## Crie e ative um ambiente virtual (opcional, mas recomendado)
+```
+python -m venv venv
+source venv/bin/activate  # No Linux/macOS
+venv\Scripts\activate     # No Windows
+```
 
